@@ -30,7 +30,7 @@
   
   <main>
     <section class="section-portfolio">
-      <h2 class="heading-secondary">Portfolio</h2>
+      <h2 class="heading-secondary heading-secondary--dark">Portfolio</h2>
       <div class="projects-container">
         <div class="project-item">
           <div class="project-item__details">
@@ -77,6 +77,27 @@
           </div>
           <img src="" alt="" class="project-item__image">
         </div>
+      </div>
+    </section>
+
+    <section class="section-contact">
+      <h2 class="heading-secondary heading-secondary--light">Contact Me</h2>
+      <div class="contact-form__container">
+        <form action="#" class="contact-form">
+          <div class="contact-form__field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+          <div class="contact-form__field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+          <div class="contact-form__field">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+          </div>
+          <button type="submit" class="form-button">Send</button>
+        </form>
       </div>
     </section>
   </main>

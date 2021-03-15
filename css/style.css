@@ -94,6 +94,58 @@ body {
   box-shadow: 0 1.25rem 1rem rgba(0, 0, 0, 0.2);
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+  background-color: var(--color-grey-light-1);
+  padding: 3rem 4rem;
+  border-radius: 3px;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.5);
+}
+.contact-form__container {
+  margin: 5rem 0;
+}
+.contact-form__field:not(:first-of-type) {
+  margin-top: 1rem;
+}
+.contact-form__field:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+.contact-form__field label {
+  display: inline-block;
+}
+.contact-form__field input {
+  display: block;
+  width: 100%;
+  padding: 1rem 0.5rem;
+}
+.contact-form__field textarea {
+  display: block;
+  width: 100%;
+  resize: none;
+  padding: 1rem 0.5rem;
+}
+
+.form-button {
+  align-self: flex-start;
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+  border: 0;
+  background-color: var(--color-secondary);
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+  transition: all 0.1s;
+}
+.form-button:hover {
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+.form-button:active {
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px);
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -160,6 +212,11 @@ body {
   min-height: 35rem;
 }
 
+.section-contact {
+  padding: 10rem 5rem;
+  background-color: var(--color-primary);
+}
+
 .section-portfolio {
   padding: 10rem 5rem;
   background-color: var(--color-primary-light);
@@ -213,7 +270,12 @@ body {
   text-transform: uppercase;
   text-align: center;
   font-size: 3.5rem;
+}
+.heading-secondary--dark {
   color: var(--color-grey-dark-1);
+}
+.heading-secondary--light {
+  color: var(--color-grey-light-1);
 }
 
 .heading-tertiary {
@@ -225,6 +287,25 @@ body {
 .project-item__details-description {
   font-size: var(--default-font-size);
   color: var(--color-grey-dark-1);
+}
+
+.contact-form__field label {
+  font-size: 2rem;
+}
+.contact-form__field input {
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+.contact-form__field textarea {
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.form-button {
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: var(--color-white);
 }
 
 .u-margin-top-tiny {

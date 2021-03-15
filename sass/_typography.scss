@@ -51,7 +51,14 @@
   text-transform: uppercase;
   text-align: center;
   font-size: 3.5rem;
-  color: var(--color-grey-dark-1);
+
+  &--dark {
+    color: var(--color-grey-dark-1);
+  }
+
+  &--light {
+    color: var(--color-grey-light-1);
+  }
 }
 
 .heading-tertiary {
@@ -63,4 +70,29 @@
 .project-item__details-description {
   font-size: var(--default-font-size);
   color: var(--color-grey-dark-1);
+}
+
+.contact-form {
+  &__field {
+    label {
+      font-size: 2rem;
+    }
+
+    input {
+      font-size: 2rem;
+      font-family: "Open Sans", sans-serif;
+    }
+
+    textarea {
+      font-size: 2rem;
+      font-family: "Open Sans", sans-serif;
+    }
+  }
+}
+
+.form-button {
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: var(--color-white);
 }
