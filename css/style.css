@@ -135,6 +135,7 @@ body {
   margin-right: auto;
   background-color: var(--color-grey-light-1);
   border-radius: 3px;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
 }
 .project-item:not(:first-of-type) {
   margin-top: 5rem;
