@@ -13,12 +13,12 @@
 
 .button {
   font-size: var(--default-font-size);
+  color: var(--color-white);
+  text-decoration: none;
 
-  &--heading:link,
-  &--heading:visited {
-    color: var(--color-primary-dark);
-    text-decoration: none;
+  &--heading {
     font-size: 2rem;
+    color: var(--color-primary-dark);
   }
 }
 
@@ -45,4 +45,22 @@
     animation-delay: .25s;
     animation-fill-mode: backwards;
   }
+}
+
+.heading-secondary {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3.5rem;
+  color: var(--color-grey-dark-1);
+}
+
+.heading-tertiary {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: var(--color-grey-dark-1);
+}
+
+.project-item__details-description {
+  font-size: var(--default-font-size);
+  color: var(--color-grey-dark-1);
 }
