@@ -1,0 +1,29 @@
+.button {
+  display: inline-block;
+
+  &--heading:link,
+  &--heading:visited {
+    display: block;
+    background-color: var(--color-grey-light-1);
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    margin-top: 5rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+    backface-visibility: hidden;
+    transition: all .1s;
+    animation-name: moveInFromTop;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-delay: .5s;
+  }
+
+  &--heading:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, .2);
+  }
+
+  &--heading:active {
+    transform: translateY(-1px);
+    box-shadow: 0 1.25rem 1rem rgba(0, 0, 0, .2);
+  }
+}

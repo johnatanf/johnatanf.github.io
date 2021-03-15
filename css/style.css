@@ -1,3 +1,33 @@
+@keyframes moveInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes moveInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes moveInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +50,74 @@ body {
   line-height: 1.6;
 }
 
+.button {
+  display: inline-block;
+}
+.button--heading:link, .button--heading:visited {
+  display: block;
+  background-color: var(--color-grey-light-1);
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  margin-top: 5rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+  backface-visibility: hidden;
+  transition: all 0.1s;
+  animation-name: moveInFromTop;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+  animation-delay: 0.5s;
+}
+.button--heading:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+.button--heading:active {
+  transform: translateY(-1px);
+  box-shadow: 0 1.25rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color-primary-dark);
+}
+
+.button {
+  font-size: var(--default-font-size);
+}
+.button--heading:link, .button--heading:visited {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.heading-primary {
+  color: var(--color-white);
+  text-align: center;
+}
+.heading-primary__name {
+  display: block;
+  font-weight: 300;
+  font-size: 6rem;
+  letter-spacing: 0.5rem;
+  margin: 1rem 0;
+  animation-name: moveInFromLeft;
+  animation-duration: 1s;
+}
+.heading-primary__job-title {
+  display: block;
+  font-weight: 400;
+  font-size: 4rem;
+  animation-name: moveInFromRight;
+  animation-duration: 1s;
+  animation-delay: 0.25s;
+  animation-fill-mode: backwards;
+}
+
 :root {
   --color-primary: #577399;
   --color-primary-dark: #495867;
@@ -27,6 +125,9 @@ body {
   --color-secondary: #FE5F55;
   --color-grey-light-1: #F7F7FF;
   --color-grey-dark-1: #333333;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --default-font-size: 1.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
