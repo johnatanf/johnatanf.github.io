@@ -1,3 +1,15 @@
+:root {
+  --color-primary: #577399;
+  --color-primary-dark: #495867;
+  --color-primary-light: #BDD5EA;
+  --color-secondary: #FE5F55;
+  --color-grey-light-1: #F7F7FF;
+  --color-grey-dark-1: #333333;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --default-font-size: 1.6rem;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -51,6 +63,21 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   scroll-behavior: smooth;
+}
+@media only screen and (max-width: 50em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (max-width: 28.125em) {
+  html {
+    font-size: 43.75%;
+  }
 }
 
 body {
@@ -117,7 +144,18 @@ body {
   border-radius: 3px;
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.5);
 }
+@media only screen and (max-width: 50em) {
+  .contact-form {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 25em) {
+  .contact-form {
+    width: 42rem;
+  }
+}
 .contact-form__container {
+  width: 100%;
   margin: 5rem 0;
 }
 .contact-form__field:not(:first-of-type) {
@@ -169,6 +207,11 @@ body {
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
   transition: all 0.1s;
 }
+@media only screen and (max-width: 25em) {
+  .form-button {
+    align-self: stretch;
+  }
+}
 .form-button:hover {
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
   transform: translateY(-2px);
@@ -219,15 +262,26 @@ body {
   height: 4.5rem;
   background-color: var(--color-grey-dark-1);
 }
+@media only screen and (max-width: 37.5em) {
+  .navigation {
+    align-items: center;
+  }
+}
 .navigation__container li {
   display: inline-block;
   margin-right: 3rem;
   transition: all 0.2s;
   backface-visibility: hidden;
 }
+@media only screen and (max-width: 37.5em) {
+  .navigation__container li {
+    margin: 0 2rem;
+  }
+}
 .navigation__container li:hover {
   transform: translateY(-2px);
 }
+
 .projects-container {
   margin: 5rem 0;
 }
@@ -242,6 +296,42 @@ body {
   border-radius: 3px;
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
 }
+.project-item__container-buttons a:not(:last-of-type) {
+  margin-right: 2rem;
+}
+@media only screen and (max-width: 21.25em) {
+  .project-item__container-buttons a {
+    margin: 1rem 0;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 21.25em) {
+  .project-item__container-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 68.75em) {
+  .project-item {
+    flex-direction: column;
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .project-item {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .project-item {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 21.25em) {
+  .project-item {
+    width: 95%;
+  }
+}
 .project-item:not(:first-of-type) {
   margin-top: 5rem;
 }
@@ -255,6 +345,16 @@ body {
   flex: 1;
   padding: 4rem 5rem;
 }
+@media only screen and (max-width: 68.75em) {
+  .project-item__details {
+    order: 2;
+  }
+}
+@media only screen and (max-width: 25em) {
+  .project-item__details {
+    padding: 2rem 4rem;
+  }
+}
 .project-item__details-description {
   margin-top: 1rem;
   margin-bottom: 3rem;
@@ -265,6 +365,11 @@ body {
   min-height: 35rem;
   background-size: cover;
   background-position: center;
+}
+@media only screen and (max-width: 68.75em) {
+  .project-item__image {
+    order: 1;
+  }
 }
 .project-item__image--todo {
   background-image: url(../img/todo-list-crop.png);
@@ -280,6 +385,11 @@ body {
 .section-contact {
   padding: 10rem 5rem;
   background-color: var(--color-primary);
+}
+@media only screen and (max-width: 25em) {
+  .section-contact {
+    padding: 10rem 0;
+  }
 }
 
 .section-portfolio {
@@ -456,18 +566,6 @@ body {
 
 .u-margin-left-large {
   margin-left: 8rem !important;
-}
-
-:root {
-  --color-primary: #577399;
-  --color-primary-dark: #495867;
-  --color-primary-light: #BDD5EA;
-  --color-secondary: #FE5F55;
-  --color-grey-light-1: #F7F7FF;
-  --color-grey-dark-1: #333333;
-  --color-white: #ffffff;
-  --color-black: #000000;
-  --default-font-size: 1.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */

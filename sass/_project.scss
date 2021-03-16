@@ -12,6 +12,41 @@
   border-radius: 3px;
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, .3);
 
+  &__container-buttons {
+    a {
+      &:not(:last-of-type) {
+        margin-right: 2rem;
+      }
+
+      @media only screen and (max-width: $bp-tiny) {
+        margin: 1rem 0;
+        width: 100%;
+      }
+    }
+
+    @media only screen and (max-width: $bp-tiny) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: $bp-largest) {
+    flex-direction: column;
+    width: 50%;
+  }
+
+  @media only screen and (max-width: $bp-large) {
+    width: 70%;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    width: 90%;
+  }
+
+  @media only screen and (max-width: $bp-tiny) {
+    width: 95%;
+  }
+
   &:not(:first-of-type) {
     margin-top: 5rem;
   }
@@ -26,6 +61,14 @@
     justify-content: space-between;
     flex: 1;
     padding: 4rem 5rem;
+
+    @media only screen and (max-width: $bp-largest) {
+      order: 2;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+      padding: 2rem 4rem;
+    }
   }
 
   &__details-description {
@@ -39,6 +82,10 @@
     min-height: 35rem;
     background-size: cover;
     background-position: center;
+
+    @media only screen and (max-width: $bp-largest) {
+      order: 1;
+    }
 
     &--todo {
       background-image: url(../img/todo-list-crop.png);
