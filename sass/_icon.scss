@@ -3,6 +3,12 @@
   height: 2rem;
   margin-left: .5rem;
 
+  &--social {
+    width: 5rem;
+    height: 5rem;
+    fill: var(--color-grey-light-1);
+  }
+
   &--circle-down {
     fill: var(--color-primary-dark);
   }
