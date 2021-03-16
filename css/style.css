@@ -252,15 +252,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex: 0 1 65%;
+  flex: 1;
   padding: 4rem 5rem;
 }
 .project-item__details-description {
   margin-top: 1rem;
+  margin-bottom: 3rem;
   flex: 1;
 }
 .project-item__image {
-  flex: 0 1 35%;
+  flex: 0 1 30rem;
   min-height: 35rem;
   background-size: cover;
   background-position: center;
