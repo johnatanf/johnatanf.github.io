@@ -9,15 +9,16 @@
     fill: var(--color-grey-light-1);
   }
 
-  &--circle-down {
+  &--light {
+    fill: var(--color-grey-light-1);
+  }
+
+  &--dark {
     fill: var(--color-primary-dark);
   }
 
   &--github {
-
-  }
-
-  &--linkedin2 {
-
+    width: 1.5rem;
+    height: 1.5rem;
   }
 }

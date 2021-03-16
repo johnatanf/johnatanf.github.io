@@ -34,8 +34,22 @@
   }
 
   &__image {
-    border: 1px solid black;
     flex: 0 1 35%;
     min-height: 35rem;
+    background-size: cover;
+    background-position: center;
+
+    &--todo {
+      background-image: url(../img/todo-list-crop.png);
+    }
+
+    &--country {
+      background-image: url(../img/country-data-crop.png);
+    }
+
+    &--book {
+      background-image: url(../img/book-app-crop.png);
+      background-position-x: 49%;
+    }
   }
 }
