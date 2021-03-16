@@ -133,12 +133,24 @@ body {
   display: block;
   width: 100%;
   padding: 1rem 0.5rem;
+  border-radius: 0;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.contact-form__field input:focus {
+  outline: 1px solid var(--color-primary-dark);
+  border: 2px solid var(--color-primary-dark);
 }
 .contact-form__field textarea {
   display: block;
   width: 100%;
   resize: none;
   padding: 1rem 0.5rem;
+  border-radius: 0;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.contact-form__field textarea:focus {
+  outline: 1px solid var(--color-primary-dark);
+  border: 2px solid var(--color-primary-dark);
 }
 
 .footer {
@@ -151,6 +163,8 @@ body {
   margin-top: 3rem;
   padding: 1rem 2rem;
   border: 0;
+  border-radius: 3px;
+  cursor: pointer;
   background-color: var(--color-secondary);
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
   transition: all 0.1s;
