@@ -129,6 +129,11 @@ body {
   padding: 1rem 0.5rem;
 }
 
+.footer {
+  padding: 1.5rem 3rem;
+  background-color: var(--color-grey-dark-1);
+}
+
 .form-button {
   align-self: flex-start;
   margin-top: 3rem;
@@ -307,6 +312,12 @@ body {
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   color: var(--color-white);
+}
+
+.footer {
+  font-size: var(--default-font-size);
+  color: var(--color-grey-light-1);
+  text-align: center;
 }
 
 .u-margin-top-tiny {
