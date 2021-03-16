@@ -230,6 +230,11 @@ body {
   min-height: 100vh;
   background-color: var(--color-primary-dark);
 }
+@media only screen and (orientation: landscape) {
+  .header {
+    padding: 10rem 0;
+  }
+}
 
 .icon {
   width: 2rem;

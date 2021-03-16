@@ -6,4 +6,8 @@
   width: 100%;
   min-height: 100vh;
   background-color: var(--color-primary-dark);
+
+  @media only screen and (orientation: landscape) {
+    padding: 10rem 0;
+  }
 }
