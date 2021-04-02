@@ -384,7 +384,14 @@ body {
 }
 .project-item__image--book {
   background-image: url(../img/book-app-crop.png);
-  background-position-x: 49%;
+  background-size: 120%;
+  background-position-y: 5rem;
+}
+@media only screen and (max-width: 68.75em) {
+  .project-item__image--book {
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .section-contact {
