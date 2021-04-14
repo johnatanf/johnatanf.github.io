@@ -393,6 +393,9 @@ body {
     background-position: center;
   }
 }
+.project-item__image--restaurant {
+  background-image: url(../img/restaurant-website-crop.PNG);
+}
 
 .section-contact {
   padding: 10rem 5rem;
