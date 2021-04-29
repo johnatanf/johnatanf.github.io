@@ -11,13 +11,6 @@ import './css/style.css'
 
 const projects = [
   {
-    name: "Restaurant website",
-    description: "A restaurant website with three basic pages (homepage, about us and reservation).",
-    demoLink: "https://johnatanf.github.io/restaurant-website/",
-    sourceCodeLink: "https://github.com/johnatanf/restaurant-website",
-    imageName: "restaurant",
-  },
-  {
     name: "Todo-list",
     description: "A simple todo-list where you can create and delete tasks, mark a task as complete, and set a task's priority and due date.",
     demoLink: "https://johnatanf.github.io/todo-list/",
@@ -37,6 +30,13 @@ const projects = [
     demoLink: "https://johnatanf.github.io/book-app-frontend",
     sourceCodeLink: "https://github.com/johnatanf/book-app-frontend",
     imageName: "book",
+  },
+  {
+    name: "Restaurant website",
+    description: "A restaurant website with three basic pages (homepage, about us and reservation).",
+    demoLink: "https://johnatanf.github.io/restaurant-website/",
+    sourceCodeLink: "https://github.com/johnatanf/restaurant-website",
+    imageName: "restaurant",
   },
 ]
 
