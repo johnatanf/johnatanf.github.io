@@ -1,14 +1,15 @@
 import React from 'react'
-import iconSet from "../img/sprite.json";
-import IcomoonReact from "icomoon-react";
+import iconSet from "../img/sprite.json"
+import IcomoonReact from "icomoon-react"
+import HeadingPrimary from "./typography/HeadingPrimary"
 
 const Header = props => {
   return (
     <header class="header">
-      <h1 class="heading-primary">
-        <span class="heading-primary__name">Johnatan Fallen</span>
-        <span class="heading-primary__job-title">Web Developer</span>
-      </h1>
+      <HeadingPrimary 
+        name="Johnatan Fallen"
+        jobTitle="Web Developer"
+      />
 
       <div class="social__container u-margin-top-medium">
         <a href="https://github.com/johnatanf/" target="_blank" class="social-item">
