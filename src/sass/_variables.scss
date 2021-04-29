@@ -1,0 +1,25 @@
+// breakpoints 
+
+$bp-largest: 68.75em; // 1100px; 
+$bp-large: 56.25em; // 900px;
+$bp-medium: 50em; // 800px 
+$bp-small: 37.5em; // 600px; 
+$bp-smaller: 28.125em; // 450px; 
+$bp-smallest: 25em; // 400px;
+$bp-tiny: 21.25em; // 340px;
+
+:root {
+  --color-primary: #577399;
+  --color-primary-dark: #495867;
+  --color-primary-light: #BDD5EA;
+
+  --color-secondary: #FE5F55;
+
+  --color-grey-light-1: #F7F7FF;
+  --color-grey-dark-1: #333333;
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --default-font-size: 1.6rem;  
+}

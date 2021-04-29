@@ -1,0 +1,113 @@
+.projects-container {
+  margin: 5rem 0;
+}
+
+.project-item {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--color-grey-light-1);
+  border-radius: 3px;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .3);
+
+  &__container-buttons {
+    a {
+      &:not(:last-of-type) {
+        margin-right: 2rem;
+      }
+
+      @media only screen and (max-width: $bp-tiny) {
+        margin: 1rem 0;
+        width: 100%;
+      }
+    }
+
+    @media only screen and (max-width: $bp-tiny) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: $bp-largest) {
+    flex-direction: column;
+    width: 50%;
+  }
+
+  @media only screen and (max-width: $bp-large) {
+    width: 70%;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    width: 90%;
+  }
+
+  @media only screen and (max-width: $bp-tiny) {
+    width: 95%;
+  }
+
+  &:not(:first-of-type) {
+    margin-top: 5rem;
+  }
+
+  &:not(:last-of-type) {
+    margin-bottom: 5rem;
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    padding: 4rem 5rem;
+
+    @media only screen and (max-width: $bp-largest) {
+      order: 2;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+      padding: 2rem 4rem;
+    }
+  }
+
+  &__details-description {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    flex: 1;
+  }
+
+  &__image {
+    flex: 0 1 30rem;
+    min-height: 35rem;
+    background-size: cover;
+    background-position: center;
+
+    @media only screen and (max-width: $bp-largest) {
+      order: 1;
+    }
+
+    &--todo {
+      background-image: url(../img/todo-list-crop.png);
+    }
+
+    &--country {
+      background-image: url(../img/country-data-crop.png);
+    }
+
+    &--book {
+      background-image: url(../img/book-app-crop.png);
+      background-size: 120%;
+      background-position-y: 5rem;
+
+      @media only screen and (max-width: $bp-largest) {
+        background-size: cover;
+      background-position: center;
+      }
+    }
+
+    &--restaurant {
+      background-image: url(../img/restaurant-website-crop.PNG);
+    }
+  }
+}
