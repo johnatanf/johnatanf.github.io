@@ -1,4 +1,5 @@
 import React from 'react'
+import HeadingSecondary from './components/typography/HeadingSecondary'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Main from './components/Main'
@@ -12,7 +13,9 @@ const App = () => {
       <Navigation />
       <Header />
       <Main>
-        <Section id="section-contact" className="section-contact" />
+        <Section id="section-contact" className="section-contact">
+          <HeadingSecondary color='light'>Contact Me</HeadingSecondary>
+        </Section>
       </Main>
       <Footer />
     </>
