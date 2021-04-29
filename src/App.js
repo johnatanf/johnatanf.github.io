@@ -14,6 +14,9 @@ const App = () => {
       <Navigation />
       <Header />
       <Main>
+        <Section id="section-portfolio" className="section-portfolio">
+          <HeadingSecondary color='dark'>Portfolio</HeadingSecondary>
+        </Section>
         <Section id="section-contact" className="section-contact">
           <HeadingSecondary color='light'>Contact Me</HeadingSecondary>
           <Form />
