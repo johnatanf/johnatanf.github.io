@@ -1,4 +1,6 @@
 import React from 'react'
+import iconSet from "../img/sprite.json";
+import IcomoonReact from "icomoon-react";
 
 const Header = props => {
   return (
@@ -10,23 +12,17 @@ const Header = props => {
 
       <div class="social__container u-margin-top-medium">
         <a href="https://github.com/johnatanf/" target="_blank" class="social-item">
-          {/* <svg class="icon icon--social">
-            <use xlink:href="img/sprite.svg#icon-github"></use>
-          </svg> */}
+          <IcomoonReact className="icon icon--social" iconSet={iconSet} icon="github" />
         </a>
         <a href="https://www.linkedin.com/in/johnatanfallen/" target="_blank" class="social-item">
-          {/* <svg class="icon icon--social">
-            <use xlink:href="img/sprite.svg#icon-linkedin2"></use>
-          </svg> */}
+          <IcomoonReact className="icon icon--social" iconSet={iconSet} icon="linkedin2" />
         </a>
       </div>
 
       <a href="#section-portfolio" class="button button--heading">
         <div class="button__content">
           View portfolio
-          {/* <svg class="icon icon--dark"> // download icomoon-react
-            <use xlink:href="img/sprite.svg#icon-circle-down"></use>
-          </svg> */}
+          <IcomoonReact className="icon icon--dark" iconSet={iconSet} icon="circle-down" />
         </div>
       </a>
     </header>
