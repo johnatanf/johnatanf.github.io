@@ -44,7 +44,7 @@ const projects = [
   },
   {
     name: "Hotel website",
-    description: "A website for a hotel.",
+    description: "A website for a hotel, containing a homepage, reservation page, and individual pages for each room type.",
     demoLink: "https://johnatanf.github.io/rental-website/",
     sourceCodeLink: "https://github.com/johnatanf/rental-website",
     imageName: "rental",
