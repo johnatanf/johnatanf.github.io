@@ -28,11 +28,11 @@ const projects = [
   },
   {
     name: "Book App",
-    description: "The Book App allows you to save books to your reading list so you can keep track of what to read. You can mark books as 'read' or remove them from your list altogether. Requires a user account (which only takes a minute to make!)",
+    description: "The Book App allows you to save books to your reading list so you can keep track of what to read. Requires a user account (which only takes a minute to make!)",
     demoLink: "https://johnatanf.github.io/book-app-frontend",
     sourceCodeLink: "https://github.com/johnatanf/book-app-frontend",
     imageName: "book",
-    skills: ['HTML', 'CSS', 'React', 'MongoDB', 'Express', 'Node.js'],
+    skills: ['HTML', 'SCSS', 'React', 'MongoDB', 'Express', 'Node.js'],
   },
   {
     name: "Restaurant website",
@@ -41,6 +41,14 @@ const projects = [
     sourceCodeLink: "https://github.com/johnatanf/restaurant-website",
     imageName: "restaurant",
     skills: ['HTML', 'SCSS', 'JavaScript'],
+  },
+  {
+    name: "Hotel website",
+    description: "A restaurant website with three basic pages (homepage, about us and reservation).",
+    demoLink: "https://johnatanf.github.io/rental-website/",
+    sourceCodeLink: "https://github.com/johnatanf/rental-website",
+    imageName: "rental",
+    skills: ['HTML', 'SCSS', 'GatsbyJS'],
   },
 ]
 
