@@ -16,6 +16,7 @@ const projects = [
     demoLink: "https://johnatanf.github.io/todo-list/",
     sourceCodeLink: "https://github.com/johnatanf/todo-list",
     imageName: "todo",
+    skills: ['HTML', 'CSS', 'React'],
   },
   {
     name: "Country Data",
@@ -23,6 +24,7 @@ const projects = [
     demoLink: "https://johnatanf.github.io/country-data/",
     sourceCodeLink: "https://github.com/johnatanf/country-data",
     imageName: "country",
+    skills: ['HTML', 'CSS', 'React'],
   },
   {
     name: "Book App",
@@ -30,6 +32,7 @@ const projects = [
     demoLink: "https://johnatanf.github.io/book-app-frontend",
     sourceCodeLink: "https://github.com/johnatanf/book-app-frontend",
     imageName: "book",
+    skills: ['HTML', 'CSS', 'React', 'MongoDB', 'Express', 'Node.js'],
   },
   {
     name: "Restaurant website",
@@ -37,6 +40,7 @@ const projects = [
     demoLink: "https://johnatanf.github.io/restaurant-website/",
     sourceCodeLink: "https://github.com/johnatanf/restaurant-website",
     imageName: "restaurant",
+    skills: ['HTML', 'SCSS', 'JavaScript'],
   },
 ]
 

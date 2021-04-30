@@ -12,6 +12,7 @@ const Projects = props => {
           demoLink={project.demoLink}
           sourceCodeLink={project.sourceCodeLink}
           imageName={project.imageName}
+          skills={project.skills}
         />
       ))}
     </div>

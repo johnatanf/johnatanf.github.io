@@ -2,6 +2,7 @@ import React from 'react'
 import iconSet from "../../img/sprite.json"
 import IcomoonReact from "icomoon-react"
 import HeadingTertiary from '../typography/HeadingTertiary'
+import Skills from '../Skills/Skills'
 
 const Project = props => {
   return (
@@ -9,6 +10,7 @@ const Project = props => {
       <div className="project-item__details">
         <HeadingTertiary>{props.name}</HeadingTertiary>
         <p className="project-item__details-description">{props.description}</p>
+        <Skills skills={props.skills} />
         <div className="project-item__container-buttons">
           <a href={props.demoLink} target="_blank" className="button button--demo">Live Demo</a>
           <a href={props.sourceCodeLink} target="_blank" className="button button--source">

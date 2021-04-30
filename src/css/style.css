@@ -412,6 +412,24 @@ body {
   background-color: var(--color-primary-light);
 }
 
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.skill {
+  background-color: var(--color-primary-dark);
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  transition: all 0.1s;
+}
+.skill:hover {
+  background-color: var(--color-primary);
+}
+
 .social__container {
   animation-name: fadeIn;
   animation-duration: 1s;
@@ -517,6 +535,11 @@ body {
   font-size: var(--default-font-size);
   color: var(--color-grey-light-1);
   text-align: center;
+}
+
+.skill {
+  font-size: 1.25rem;
+  color: var(--color-grey-light-1);
 }
 
 .u-margin-top-tiny {
