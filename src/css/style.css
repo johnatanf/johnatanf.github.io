@@ -346,7 +346,6 @@ body {
 .project-item__details {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   flex: 1;
   padding: 4rem 5rem;
 }
@@ -362,8 +361,6 @@ body {
 }
 .project-item__details-description {
   margin-top: 1rem;
-  margin-bottom: 3rem;
-  flex: 1;
 }
 .project-item__image {
   flex: 0 1 30rem;
@@ -414,6 +411,8 @@ body {
 
 .skills-container {
   display: flex;
+  flex: 1;
+  align-items: flex-start;
   flex-wrap: wrap;
   margin: 2rem 0;
 }

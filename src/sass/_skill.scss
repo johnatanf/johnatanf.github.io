@@ -1,5 +1,7 @@
 .skills-container {
   display: flex;
+  flex: 1;
+  align-items: flex-start;
   flex-wrap: wrap;
   margin: 2rem 0;
 }
