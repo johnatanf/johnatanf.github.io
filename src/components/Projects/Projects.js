@@ -6,6 +6,7 @@ const Projects = props => {
     <div className="projects-container">
       {props.projects.map(project => (
         <Project 
+          key={project.name}
           name={project.name}
           description={project.description}
           demoLink={project.demoLink}
