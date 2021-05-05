@@ -1,4 +1,3 @@
 [ZoneTransfer]
 ZoneId=3
-ReferrerUrl=https://raw.githubusercontent.com/johnatanf/johnatanf.github.io/master/img/book-app-crop.png
-HostUrl=https://raw.githubusercontent.com/johnatanf/johnatanf.github.io/master/img/book-app-crop.png
+HostUrl=file://wsl%24/Ubuntu/home/johnatan/projects-wsl/portfolio-site-react/src/img/book-app-crop.png

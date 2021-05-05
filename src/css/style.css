@@ -381,14 +381,8 @@ body {
 }
 .project-item__image--book {
   background-image: url(../img/book-app-crop.png);
-  background-size: 120%;
-  background-position-y: 5rem;
-}
-@media only screen and (max-width: 68.75em) {
-  .project-item__image--book {
-    background-size: cover;
-    background-position: center;
-  }
+  background-size: cover;
+  background-position: center;
 }
 .project-item__image--restaurant {
   background-image: url(../img/restaurant-website-crop.png);

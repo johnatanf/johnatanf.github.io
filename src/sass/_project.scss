@@ -94,13 +94,8 @@
 
     &--book {
       background-image: url(../img/book-app-crop.png);
-      background-size: 120%;
-      background-position-y: 5rem;
-
-      @media only screen and (max-width: $bp-largest) {
-        background-size: cover;
+      background-size: cover;
       background-position: center;
-      }
     }
 
     &--restaurant {
