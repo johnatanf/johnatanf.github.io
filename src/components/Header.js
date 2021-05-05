@@ -12,10 +12,10 @@ const Header = props => {
       />
 
       <div className="social__container u-margin-top-medium">
-        <a href="https://github.com/johnatanf/" target="_blank" className="social-item">
+        <a href="https://github.com/johnatanf/" target="_blank" rel="noreferrer" className="social-item">
           <IcomoonReact className="icon icon--social" iconSet={iconSet} icon="github" />
         </a>
-        <a href="https://www.linkedin.com/in/johnatanfallen/" target="_blank" className="social-item">
+        <a href="https://www.linkedin.com/in/johnatanfallen/" target="_blank" rel="noreferrer" className="social-item">
           <IcomoonReact className="icon icon--social" iconSet={iconSet} icon="linkedin2" />
         </a>
       </div>

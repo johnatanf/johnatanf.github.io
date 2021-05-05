@@ -12,8 +12,8 @@ const Project = props => {
         <p className="project-item__details-description">{props.description}</p>
         <Skills skills={props.skills} />
         <div className="project-item__container-buttons">
-          <a href={props.demoLink} target="_blank" className="button button--demo">Live Demo</a>
-          <a href={props.sourceCodeLink} target="_blank" className="button button--source">
+          <a href={props.demoLink} target="_blank" rel="noreferrer" className="button button--demo">Live Demo</a>
+          <a href={props.sourceCodeLink} target="_blank" rel="noreferrer" className="button button--source">
             <div className="button__content">
               Source Code
               <IcomoonReact className="icon icon--light" iconSet={iconSet} icon="github" />
