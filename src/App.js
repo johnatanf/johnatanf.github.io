@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactGA from 'react-ga';
 import HeadingSecondary from './components/typography/HeadingSecondary'
 import Footer from './components/Footer'
 import Form from './components/Form/Form'
@@ -8,6 +9,9 @@ import Navigation from './components/Navigation'
 import Projects from './components/Projects/Projects'
 import Section from './components/Section'
 import './css/style.css'
+
+ReactGA.initialize('UA-196659371-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const projects = [
   {
