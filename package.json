@@ -1,4 +1,5 @@
 {
+  "homepage": "https://{username}.github.io/{repository-name}",
   "name": "portfolio-site-react",
   "version": "0.1.0",
   "private": true,
@@ -23,6 +24,7 @@
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/css/style.concat.css -o src/css/style.prefix.css",
     "compress:css": "sass src/css/style.prefix.css src/css/style.css --style=compressed",
     "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
