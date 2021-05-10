@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/%7Brepository-name%7D/static/css/main.570e716b.chunk.css",
+    "main.js": "/%7Brepository-name%7D/static/js/main.b36563fb.chunk.js",
+    "main.js.map": "/%7Brepository-name%7D/static/js/main.b36563fb.chunk.js.map",
+    "runtime-main.js": "/%7Brepository-name%7D/static/js/runtime-main.37aca31d.js",
+    "runtime-main.js.map": "/%7Brepository-name%7D/static/js/runtime-main.37aca31d.js.map",
+    "static/js/2.51465933.chunk.js": "/%7Brepository-name%7D/static/js/2.51465933.chunk.js",
+    "static/js/2.51465933.chunk.js.map": "/%7Brepository-name%7D/static/js/2.51465933.chunk.js.map",
+    "static/js/3.f6763953.chunk.js": "/%7Brepository-name%7D/static/js/3.f6763953.chunk.js",
+    "static/js/3.f6763953.chunk.js.map": "/%7Brepository-name%7D/static/js/3.f6763953.chunk.js.map",
+    "index.html": "/%7Brepository-name%7D/index.html",
+    "static/css/main.570e716b.chunk.css.map": "/%7Brepository-name%7D/static/css/main.570e716b.chunk.css.map",
+    "static/js/2.51465933.chunk.js.LICENSE.txt": "/%7Brepository-name%7D/static/js/2.51465933.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/%7Brepository-name%7D/static/media/todo-list-crop.f26e8c88.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37aca31d.js",
+    "static/js/2.51465933.chunk.js",
+    "static/css/main.570e716b.chunk.css",
+    "static/js/main.b36563fb.chunk.js"
+  ]
+}
